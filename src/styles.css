@@ -1,0 +1,131 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+header h1 {
+  margin-bottom: 0.5em;
+}
+
+header button {
+  padding: 0.5em 1em;
+  font-size: 1em;
+  color: #333;
+  background-color: #ffdf5d;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+header button:hover {
+  background-color: #ffc107;
+}
+
+header p {
+  margin-top: 1em;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+/* Game Section */
+main {
+  max-width: 800px;
+  margin: 2em auto;
+}
+
+.game-container {
+  background: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.choice {
+  font-size: 1.5em;
+  padding: 1em 1.5em;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.choice:hover {
+  background-color: #0056b3;
+}
+
+.play-btn {
+  margin-top: 1em;
+  font-size: 1.2em;
+  padding: 0.7em 1.5em;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.play-btn:hover {
+  background-color: #218838;
+}
+
+#resultMessage {
+  margin-top: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Game History */
+.history-container {
+  background: #fff;
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.history-container ul {
+  list-style: none;
+  margin-top: 1em;
+  padding: 0;
+}
+
+.history-container li {
+  background: #f9f9f9;
+  margin: 0.5em 0;
+  padding: 1em;
+  border-radius: 5px;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+footer {
+  margin-top: 2em;
+  padding: 1em;
+  background-color: #333;
+  color: #fff;
+  font-size: 0.9em;
+}
